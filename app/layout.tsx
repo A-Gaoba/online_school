@@ -5,8 +5,8 @@ import Footer from '@/components/Footer'
 
 
 export const metadata: Metadata = {
-  title: 'Travel Application',
-  description: 'Travel app for Camping',
+  title: 'Online School',
+  description: 'Online School website',
 }
 
 export default function RootLayout({

@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <nav className="flexBetween relative z-30 lg:py-2 py-5">
       <Link href="/">
-        <Image src="/logo1.png" alt="logo" width={84} height={24} />
+        <Image src="/logo1.png" alt="logo" width={84} height={24} className=" w-12 md:h-full md:w-full"/>
       </Link>
 
       {/* Responsive Menu */}

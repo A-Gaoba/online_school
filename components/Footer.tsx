@@ -5,7 +5,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="container mx-auto my-2 p-4">
+    <footer className="container -my-8 p-4">
       <div className="bg-[#e9edc9] px-6 lg:px-16 py-4 rounded-3xl ">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <Link href="/" className="mb-10">
@@ -46,7 +46,7 @@ const Footer = () => {
 
             <div className="flex flex-col gap-5">
               <FooterColumn title={SOCIALS.title}>
-                <ul className="regular-14 flex gap-4 text-gray-30">
+                <ul className="regular-14 flex gap-4 text-gray-30 my-4">
                   {SOCIALS.links.map((link) => (
                     <Link href="/" key={link}>
                       <Image src={link} alt="logo" width={24} height={24} />
@@ -60,7 +60,7 @@ const Footer = () => {
 
         <div className="border bg-gray-20" />
         <Link href="https://a-gaoba.vercel.app/">
-        <p className="regular-14 w-full text-center text-gray-30">2024 <span className=' underline text-sky-500'>Gaoba</span>| All rights reserved</p>
+        <p className="regular-14 w-full text-center text-gray-30 m-4">2024 <span className=' underline text-sky-500'>Gaoba</span>| All rights reserved</p>
         </Link>
       </div>
     </footer>
