@@ -25,7 +25,7 @@ const Footer = () => {
               </FooterColumn>
             ))}
 
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-5 mb-4">
               <FooterColumn title={FOOTER_CONTACT_INFO.title}>
                 {FOOTER_CONTACT_INFO.links.map((link) => (
                   <Link
@@ -44,7 +44,7 @@ const Footer = () => {
               </FooterColumn>
             </div>
 
-            <div className="flex flex-col gap-5">
+            {/* <div className="flex flex-col gap-5">
               <FooterColumn title={SOCIALS.title}>
                 <ul className="regular-14 flex gap-4 text-gray-30 my-4">
                   {SOCIALS.links.map((link) => (
@@ -54,7 +54,7 @@ const Footer = () => {
                   ))}
                 </ul>
               </FooterColumn>
-            </div>
+            </div> */}
           </div>
         </div>
 
