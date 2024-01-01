@@ -7,6 +7,7 @@ import Footer from '@/components/Footer'
 export const metadata: Metadata = {
   title: 'Online School',
   description: 'Online School website',
+  manifest: '/manifest.json',
 }
 
 export default function RootLayout({
@@ -19,7 +20,6 @@ export default function RootLayout({
       <body>
         {/* <Navbar /> */}
         <main className=' relative overflow-hidden'>
-
           {children}
         </main>
         <Footer />
