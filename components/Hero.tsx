@@ -6,9 +6,8 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <div className="container mx-auto my-2 p-4">
-      <div className="bg-[#e9edc9] px-6 lg:px-16 py-4 rounded-3xl ">
-        <Navbar />
+    <div className="container mx-auto">
+      <div className="bg-[#e9edc9] px-6 2xl:px-16 py-4 ">
         <div className="flex flex-col lg:flex-row justify-center mt-8 items-center gap-5 lg:gap-10 2xl:p-24 xl:p-10">
           <div className="flex flex-col justify-center lg:w-1/2 gap-6 md:gap-10">
             <p className="text-2xl sm:text-4xl md:text-5xl font-bold">
@@ -21,7 +20,7 @@ const Hero = () => {
               transformative educational journey, where every student&apos;s
               potential is unleashed.
             </p>
-            
+
             <Button
               type="button"
               title="Get Started"
