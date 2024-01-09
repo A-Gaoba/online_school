@@ -12,17 +12,17 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  isDashboard = false,
 }: {
   children: React.ReactNode
+  isDashboard: boolean
 }) {
   return (
     <html lang="en">
       <body>
-        <Navbar />
         <main className=' relative overflow-hidden'>
           {children}
         </main>
-        <Footer />
       </body>
     </html>
   )
