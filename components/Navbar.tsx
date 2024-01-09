@@ -1,4 +1,5 @@
-"use client";
+"use client"
+
 import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -38,7 +39,7 @@ const Navbar = () => {
         </Link>
 
         {/* Responsive Menu */}
-        <div className="lg:hidden ">
+        <div className="lg:hidden" ref={menuRef}>
           <Image
             src={menuIcon}
             alt="menu"
